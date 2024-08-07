@@ -46,7 +46,7 @@ spec:
       name: Creating your data science project
       action: trigger:harness-custom-pipeline
       input:
-        url: "<input onboarding pipeline URL>"
+        url: "https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/module/idp-admin/orgs/arloidp307org/projects/arloavorakh/pipelines/Test/pipeline-studio/?storeType=INLINE&stageId=Service_Onboarding&sectionId=INFRASTRUCTURE"
         inputset:
           project_name: ${{ parameters.project_name }}
           feature_branch: ${{ parameters.feature_branch }}
